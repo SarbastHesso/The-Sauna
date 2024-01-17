@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url('./steam.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 3rem;
+    font-size: 3rem;
+    /* color: #f0cc8a; */
+    text-align: center;
+}
+
+#output-message {
+    font-size: 1.7rem;
+    color: #ffffff;
+    margin: 4rem 0;
+}
+
+#form {
+    padding: 2rem;
+    box-shadow: 3px 3px 10px 5px #4949419e;
+    margin-bottom: 4rem;
+}
+
+#temperature-label {
+    font-size: 1.7rem;
+    color: #ffffff;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+#temperature-input {
+    width: 50%;
+    align-self: center;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    font-size: 2.2rem;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+} 
+
+#btn {
+    border: none;
+    border-radius: .5rem;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
